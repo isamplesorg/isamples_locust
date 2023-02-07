@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "isamples_locust"
+version = "0.1.0"
+description = "Locus load tests for iSamples"
+authors = ["Danny Mandel <danny.mandel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+locust = "^2.14.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
